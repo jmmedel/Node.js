@@ -1,3 +1,7 @@
+
+// normal function statement
+
+
 function callFunction(fun){
  fun();
 }
@@ -7,3 +11,5 @@ var tata = function(){
 }
 
 callFunction(tata);
+
+
