@@ -5,9 +5,9 @@ var upload = multer({dest: './public/images/portfolio'});
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-	host: 'localhost',
+	host: '',
 	user: 'root',
-	password: '123456',
+	password: '',
 	database: 'portfolio'
 });
 
